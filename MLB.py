@@ -307,9 +307,15 @@ class Game:
                     if H == "Out":
                         out += 1
 
-        print("--------------------------------------------------------------")
-        print("\nEND\n")
-
+        print("--------------------------------------------------------------\n")
+        twins_score = Bases_A[3]
+        yanks_score = Bases_B[3]
+        if(twins_score > yanks_score):
+          print("Twins win {} to {}".format(twins_score, yanks_score))
+        elif(twins_score == yanks_score):
+          print("Twins win {} to {}".format(twins_score + 1, yanks_score))
+        else:
+          print("Yankees win {} to {}".format(yanks_score, twins_score))
         return
 
         # game = False
