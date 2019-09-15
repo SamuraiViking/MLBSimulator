@@ -1,6 +1,6 @@
 # MLBSimulator
 
-A play by play simulation of the 09 twins vs 09 yankees.
+A play by play simulation of the 09 twins vs 09 yankees based off stats in the txt files.
 
 # Run
 
